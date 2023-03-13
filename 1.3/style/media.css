@@ -1,0 +1,159 @@
+@media (min-width: 768px) {
+    .conteiner {
+        padding: 0 24px;
+    }
+
+    .header__btn-item {
+        display: initial;
+    }
+
+    .header__btn-item:nth-child(3) {
+        margin-right: 43px;
+    }
+
+    .header__burger {
+        position: relative;
+        margin-right: 44px;
+      }
+
+      .header__burger::after {
+        content: "";
+        position: absolute;
+        right: -21px;
+        bottom: 0;
+        width: 2px;
+        height: 32px;
+        background-color: #EAEAEA;
+        border-radius: 1px;
+        transform: translateY(-93%);
+      }
+
+      .header__title::before {
+        left: -24px;
+      }
+
+      .header__section-bottom {
+        margin-bottom: 32px;
+      }
+
+      .about-us__content {
+        padding: 0 24px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .about-us__info {
+        padding: 0;
+        margin: 0;
+        margin-right: 45px;
+        width: 50%;
+      }
+
+      .about-us__picture {
+        min-height: 208px;
+        min-width: 360px;
+        padding-top: 0;
+        background-image: url(/image/_MG_3223.png);
+      }
+
+      .about-us__desc {
+        display: block;
+      }
+
+      .about-us__desc--first-text {
+        margin-bottom: 25px;
+      }
+
+      .about-us__desc--last-text {
+        margin-bottom: 10px;
+      }
+}
+
+@media (min-width: 1120px) {
+  .header__box {
+    display: none;
+  }
+
+  .conteiner {
+    padding: 0 32px;
+  }
+
+  .header__btns-middle {
+    display: initial;
+  }
+
+  .header__section-middle {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+  }
+
+  .header__btn {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+  }
+
+  .header__item-middle:first-child {
+    margin-right: 32px;
+  }
+
+  .header__icon {
+    padding-left: 9px;
+  }
+
+  .header__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .header__title::before {
+    left: -32px;
+    width: 3px;
+    border-radius: 2px;
+  }
+
+  .header__list {
+    flex-wrap: wrap;
+    overflow-x: initial;
+  }
+
+  .header__item:nth-child(5) {
+    margin: 0;
+  }
+
+  .header__section-bottom {
+    margin-bottom: 7px;
+  }
+
+  .about-us__content {
+    max-width: 1120px;
+    padding: 0 32px;
+    margin-bottom: 50px;
+  }
+
+  .about-us__info {
+    padding: 0;
+    margin: 0;
+    padding-top: 9px;
+    margin-right: 36px;
+  }
+
+  .about-us__text {
+    display: initial;
+  }
+
+  .about-us__desc--last-text {
+    margin-bottom: 14px;
+  }
+
+  .about-us__picture {
+    min-height: 307px;
+    min-width: 532px;
+    background-image: url(/image/_MG_3224.png);
+  }
+}
